@@ -6,3 +6,5 @@ a =  np.linspace(0, 1, 11)
 b =  np.linspace(0, 1, 41)
 i, = np.where(np.isclose(b, 0.1))
 print(i)
+
+print(np.linspace(0.1, 0.95, 18))
